@@ -1,0 +1,522 @@
+@media screen and (max-width: 1000px) {
+
+    /* планшет 768 */
+    .page__baner {
+        padding: 0 80px;
+        background: url(../img/main-baner-travel-plan.png) no-repeat;
+        height: 1024px;
+    }
+
+    .header__menu-link {
+        color: #282828;
+        font-size: 20px;
+    }
+
+    .header__menu {
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        max-width: 250px;
+        z-index: 1;
+        transition: all 0.25s ease;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid #282828;
+    }
+
+    .page-header__menu-toogle {
+        display: block;
+    }
+
+    .page-header__menu-toogle.is-active+.header__menu {
+        display: block;
+    }
+
+    .header__menu-list {
+        display: block;
+        margin: 0;
+        padding: 30px;
+    }
+
+    .header__menu-item {
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .header__menu-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .page__baner-slogan {
+        margin-top: 235px;
+    }
+
+    .page__baner-title {
+        max-width: 463px;
+        height: 243px;
+        margin-bottom: 90px;
+    }
+
+    .page__baner-title-thick {
+        font-size: 48px;
+        line-height: 58.51px;
+    }
+
+    .page__baner-title-italic {
+        right: 0px;
+        top: 32px;
+        font-size: 48px;
+    }
+
+    .page__baner-title-contour {
+        line-height: 86.4px;
+        max-width: 406px;
+    }
+
+    .baner__social-list {
+        top: 465px;
+    }
+
+    .baner__slider {
+        width: 479px;
+        height: 187px;
+    }
+
+
+    .pop-excursion {
+        margin-top: 241px;
+        margin-left: 80px;
+    }
+
+    .pop-excursion__heading {
+        margin-right: 79px;
+    }
+
+    .pop-excursion__slider {
+        height: 490px;
+    }
+
+    .pop-excursion__slide-desc {
+        width: 265px;
+    }
+
+
+    .about__pic {
+        width: 66%;
+    }
+
+    .about__text {
+        padding: 60px 55px;
+        width: 493px;
+    }
+
+
+    .types {
+        padding: 0 79px;
+    }
+
+    .types__cards {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 40px;
+        margin-bottom: 60px;
+    }
+
+    .types__card {
+        grid-template-columns: 75px auto;
+    }
+
+
+    .gallery__photo:nth-child(1),
+    .gallery__photo:nth-child(5),
+    .gallery__photo:nth-child(6),
+    .gallery__photo:nth-child(7) {
+        display: none;
+    }
+
+    .gallery__photos {
+        display: grid;
+        grid-template-columns: 205px 266px 216px;
+        gap: 20px;
+        padding: 0;
+        grid-template-areas:
+            "b c d"
+            "b c d"
+            "b i i"
+            "b i i";
+    }
+
+    .gallery__photo img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 24px;
+    }
+
+    .gallery__heading {
+        gap: 418px;
+    }
+
+
+    .reviews {
+        margin-left: 79px;
+    }
+
+    .reviews__heading {
+        padding-right: 79px;
+    }
+
+    .reviews__slide {
+        padding: 26px 17px 28px 31px;
+    }
+
+    .reviews__slide-desc {
+        width: 269px;
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+
+    .input-field {
+        width: 316px;
+    }
+
+
+    .footer__menu,
+    .footer__contacts {
+        gap: 40px;
+    }
+
+    .footer__row {
+        padding: 0 70px;
+    }
+
+    .footer__link {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+
+    /* page__excursion */
+
+    .page__excursion-baner {
+        padding: 0 79px;
+        height: 510px;
+        width: 100%;
+        background: url(../img/our-excursion-lap.png) no-repeat center;
+    }
+
+    .page__excursion-title {
+        margin-top: 140px;
+        font-size: 48px;
+        line-height: 58.51px;
+    }
+
+    .search__selection {
+        grid-template-columns: repeat(2, 235px);
+    }
+
+
+    .main-box {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 150px;
+        grid-template-areas:
+            "a"
+            "b";
+        padding: 0 79px;
+    }
+
+    .filter {
+        grid-area: b;
+
+    }
+
+    .tours__cards {
+        display: grid;
+        grid-template-rows: repeat(4, 444px);
+        justify-items: center;
+    }
+
+    .tours__card {
+        grid-template-columns: 238px auto;
+    }
+
+    .tours__card-text {
+        padding-right: 33px;
+    }
+
+    .tours__card-title {
+        width: 296px;
+    }
+
+    .tours__card-item:last-child {
+        margin-left: 0;
+    }
+
+    .tours__card-desc {
+        margin: 20px 0 40px;
+        width: 272px;
+        font-size: 13px;
+        line-height: 15.85px;
+    }
+
+    .tours__card-img img {
+        height: 100%;
+    }
+
+    .tours__pagination {
+        margin: 0;
+        margin-top: 90px;
+    }
+
+
+    .filter {
+        margin-bottom: 150px;
+    }
+
+    .filter__form-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 225px);
+        gap: 86px;
+    }
+
+    .filter__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .filter__button {
+        width: 225px;
+    }
+
+    .filter__button-reset {
+        margin: 0;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+    /* mobile 320 */
+
+    .page__baner {
+        padding: 0 10px;
+        background: url(../img/main-baner-travel-mobile.jpg) no-repeat;
+        height: 928px;
+    }
+
+    .page__baner-slogan {
+        margin-top: 116px;
+    }
+
+    .page__baner-title {
+        max-width: 300px;
+        height: 168px;
+        margin-bottom: 90px;
+    }
+
+    .page__baner-title-thick {
+        font-size: 30px; 
+    }
+
+    .page__baner-title-italic {
+        right: 27px;
+        top: 20px;
+        font-size: 42px;
+    }
+
+    .page__baner-title-contour {
+        font-size: 60px;
+        line-height: 55px;
+    }
+
+    .baner__social-list {
+        top: 600px;
+    }
+
+    .baner__slider {
+        padding-left: 20px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .pop-excursion {
+        margin-left: 10px;
+    }
+
+    .pop-excursion__heading {
+        margin-right: 10px;
+    }
+
+    .pop-excursion__link-more {
+        align-self: flex-end;
+    }
+
+    .pop-excursion__slide-desc {
+       width: 100%;
+    }
+
+    .about__pic {
+        height: 704px;
+        width: 71%;
+    }
+
+    .about__text {
+        padding: 35px;
+        width: 300px;
+        right: -30px;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about__desc {
+        font-size: 13px;
+        line-height: 15.85px;
+    }
+
+    .types {
+        padding: 0 10px;
+    }
+
+    .types__card-desc {
+        font-size: 13px;
+        line-height: 15.85px;
+    }
+
+    .gallery__photos {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 186px 194px 260px;
+        grid-template-areas:
+            "b c"
+            "b d"
+            "i i"
+            "i i";
+    }
+
+    .gallery__heading {
+        gap: 100px;
+    }
+
+    .reviews {
+        margin-left: 24px;
+    }
+
+    .reviews__heading {
+        padding-right: 24px;
+    }
+
+    .reviews__slide-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    .reviews__slide {
+        padding: 32px 25px 48px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reviews__slide-text {
+        margin: 0;
+    }
+
+    .reviews__slide-desc {
+        font-size: 13px;
+        line-height: 15.85px;
+        width: 228px;
+    }
+
+
+    .question {
+        height: 928px;
+        background: url(../img/question-mobile.png) no-repeat center;
+    }
+
+    .question__overlay {
+        width: 380px;
+        padding: 137px 42px;
+    }
+
+    .question__box {
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .input-field {
+        width: 295px;
+    }
+
+
+    .footer__row {
+        height: 412px;
+        position: relative;
+    }
+
+    .footer__logo {
+        position: absolute;
+        top: 48px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .footer__social {
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .footer__menu-list {
+        position: absolute;
+        top: 269px;
+        left: 20px;
+
+    }
+
+    .footer__contacts-column--mobile {
+        position: absolute;
+        top: 269px;
+        right: 20px;
+    }
+
+    .footer__menu-list {
+        margin: 0;
+    }
+
+
+    .footer__menu-item {
+        margin-bottom: 5px;
+    }
+
+    .footer__contact--hiden {
+        display: block;
+    }
+
+    .footer__contact--visible {
+        display: none;
+    } 
+
+
+
+
+
+
+   
+
+}

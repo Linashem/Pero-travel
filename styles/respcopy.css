@@ -1,0 +1,303 @@
+
+/* @media screen and (max-width: 450px) { */
+
+/* mobile 428 */
+/* .page__baner {
+        padding: 0 24px;
+        height: 928px;
+        background: url(../img/main-baner-travel-mobile.jpg) no-repeat center;
+    }
+
+    .page__baner-title {
+        max-width: 323px;
+        height: 186px;
+    }
+
+
+    .page__baner-title-thick {
+        font-size: 36px;
+        line-height: 43.88px;
+    }
+
+    .page__baner-title-italic {
+        top: 20px;
+    }
+
+    .page__baner-title-contour {
+        font-size: 72px;
+        line-height: 64.8px;
+        bottom: 0;
+    }
+
+    .baner__social-list {
+        top: 625px;
+    }
+
+    .baner__slider {
+        width: 385px;
+        left: 24px;
+    }
+
+
+    .pop-excursion {
+        margin-top: 150px;
+        margin-left: 24px;
+    }
+
+    .pop-excursion__link-more {
+        display: none;
+    }
+
+    .pop-excursion__slider {
+        height: 540px;
+    }
+
+    .pop-excursion__slide-desc {
+        width: 253px;
+    }
+
+
+    .about__pic {
+        width: 71%;
+        height: 704px;
+    }
+
+    .about__text {
+        padding: 43px;
+        width: 380px;
+        transform: translate(-35px, -50%);
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+
+    .types {
+        padding: 0 24px;
+    }
+
+    .types__card-desc {
+        font-size: 13px;
+        line-height: 15.85px;
+    }
+
+
+    .gallery__photos {
+        display: grid;
+        grid-template-columns: 180px 180px;
+        grid-template-rows: 186px 194px 260px;
+        grid-template-areas:
+            "b c"
+            "b d"
+            "i i"
+            "i i";
+    }
+
+    .gallery__heading {
+        gap: 188px;
+    }
+
+    .reviews {
+        margin-left: 24px;
+    }
+
+    .reviews__heading {
+        padding-right: 24px;
+    }
+
+    .reviews__slide-pic {
+        width: 80px;
+        height: 80px;
+    }
+
+    .reviews__slide {
+        padding: 32px 25px 48px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reviews__slide-text {
+        margin: 0;
+    }
+
+    .reviews__slide-desc {
+        font-size: 13px;
+        line-height: 15.85px;
+        width: 228px;
+    }
+
+
+    .question {
+        height: 928px;
+        background: url(../img/question-mobile.png) no-repeat center;
+    }
+
+    .question__overlay {
+        width: 380px;
+        padding: 137px 42px;
+    }
+
+    .question__box {
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .input-field {
+        width: 295px;
+    }
+
+
+    .footer__row {
+        height: 412px;
+        position: relative;
+    }
+
+    .footer__logo {
+        position: absolute;
+        top: 48px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .footer__social {
+        position: absolute;
+        top: 170px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .footer__menu-list {
+        position: absolute;
+        top: 269px;
+        left: 20px;
+
+    }
+
+    .footer__contacts-column--mobile {
+        position: absolute;
+        top: 269px;
+        right: 20px;
+    }
+
+    .footer__menu-list {
+        margin: 0;
+    }
+
+
+    .footer__menu-item {
+        margin-bottom: 5px;
+    }
+
+    .footer__contact--hiden {
+        display: block;
+    }
+
+    .footer__contact--visible {
+        display: none;
+    } */
+
+/* page__excursion */
+/* .page__excursion-baner {
+        padding: 0 24px;
+        height: 370px;
+        background: url(../img/our-excursion-lap.png) no-repeat center;
+    }
+
+    .page__excursion-title {
+        margin-top: 80px;
+        font-size: 36px;
+        line-height: 43.88px;
+    }
+
+    .search {
+        padding: 0 24px;
+    }
+
+    .search__radio {
+        gap: 10px;
+        margin: 0;
+        width: 361px;
+    }
+
+    .radio-text {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+
+    .radio-text::before {
+        width: 129px;
+        left: 0;
+    }
+
+    .radio-text--canyoning::before {
+        width: 83px;
+    }
+
+    .search__selection {
+        grid-template-columns: 305px;
+    }
+
+    .search__btn {
+        width: 100%;
+    }
+
+
+    .main-box {
+        padding: 0 20px;
+        gap: 90px;
+    }
+
+    .tours__cards {
+        display: grid;
+        grid-template-rows: repeat(4, 690px);
+    }
+
+    .tours__card {
+        grid-template-columns: none;
+        grid-template-rows: 240px auto;
+    }
+
+    .tours__card-img--desc {
+        display: none;
+    }
+
+    .tours__card-img--mobile {
+        display: block;
+    }
+
+    .tours__card-img img {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+
+    .tours__card-text {
+        padding: 24px 39px 66px 36px;
+    }
+
+    .tours__card-title {
+        width: 296px;
+    }
+
+    .filter {
+        margin-bottom: 90px;
+    }
+
+    .filter__form-cards {
+        display: block;
+    }
+
+    .filter__buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter__button {
+        width: 225px;
+    }
+
+    .filter__button-reset {
+        margin: 0;
+    }
+} */
